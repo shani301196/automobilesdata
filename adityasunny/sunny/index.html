@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aditya Jaiswal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC-c2dm3bG6sZZ9w6qmPLKnOfcfHTWwqPQ",
+    authDomain: "adityasunny-69dd1.firebaseapp.com",
+    databaseURL: "https://adityasunny-69dd1.firebaseio.com",
+    projectId: "adityasunny-69dd1",
+    storageBucket: "adityasunny-69dd1.appspot.com",
+    messagingSenderId: "425321500695"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.0.min.js"></script>
+<script src="indexx.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>DATA SET</h2>
+  <p> Data are shown in the form of table</p>         
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Model</th>
+        <th>MPG</th>
+         <th>Cylinders</th>
+        <th>Displacement</th>
+        <th>Horsepower</th>
+         <th>Weight</th>
+        <th>Acceleration</th>
+        <th>Year</th>
+        <th>Origin</th>
+      </tr>
+    </thead>
+    <tbody id = "table_body">
+      
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
